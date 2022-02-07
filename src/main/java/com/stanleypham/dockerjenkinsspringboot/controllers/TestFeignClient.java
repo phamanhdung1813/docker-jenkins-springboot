@@ -22,6 +22,6 @@ public class TestFeignClient {
 
     @GetMapping(value = "/update")
     public String update() {
-        return "SOMETHING IS UPDATED !!!";
+        return "SOMETHING IS UPDATED HERE !!!";
     }
 }
