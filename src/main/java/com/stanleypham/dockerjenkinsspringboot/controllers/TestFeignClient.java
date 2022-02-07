@@ -19,4 +19,9 @@ public class TestFeignClient {
     public List<Users> fetchAll() {
         return feignAPI.fetchAll();
     }
+
+    @GetMapping(value = "/update")
+    public String update() {
+        return "SOMETHING IS UPDATED !!!";
+    }
 }
