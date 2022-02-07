@@ -1,0 +1,3 @@
+client:
+  fetch:
+    defaultUrl: https://jsonplaceholder.typicode.com/
